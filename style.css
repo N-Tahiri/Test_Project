@@ -2,3 +2,38 @@ body {
   text-align: center;
   background-color: rgb(230, 225, 218);
 }
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10% auto;
+  background-color: rgb(50, 231, 231);
+  padding: 5px;
+  border: rgb(231, 235, 8) 5px solid;
+  width: 600px;
+}
+.grid-item {
+  background-color: rgb(225, 241, 255);
+  color: rgb(4, 75, 137);
+  font-size: 20px;
+  /* border: rgb(14, 149, 222) 2px solid; */
+}
+.item1 {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  /* align-items: center;
+  align-self: center; */
+}
+
+img {
+  width: 200px;
+}
+
+.info {
+  color: rgb(10, 165, 226);
+  margin-top: -10px;
+}
+
+.colorCode {
+  margin-top: -15px;
+  margin-bottom: -10px;
+}
