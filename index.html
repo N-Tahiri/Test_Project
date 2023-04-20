@@ -4,24 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <h1>Welcome to this test website!</h1>
-    <h3 class="info">Click on the image to change the title color!</h3>
+    <p class="info">Click on the image to change the title's color!</p>
     <div class="container">
       <div class="grid-item item1">
         <img class="badge" src="./img/badge.png" alt="badge" />
       </div>
       <div class="grid-item item2">
         <h2 class="title">The Flower</h2>
-        <p class="colorCode">randomColor</p>
+        <div class="colorDiv">
+          <label>Color's code:</label>
+          <label class="colorCode">randomColor</label>
+        </div>
       </div>
       <div class="grid-item item3">
-        <p>
-          Short descreption: Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit.
+        <p class="description">
+          <b>Short description:</b> Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit.
         </p>
       </div>
     </div>

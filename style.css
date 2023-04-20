@@ -4,8 +4,10 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 10% auto;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 5px;
+
+  margin: 0% auto;
   background-color: rgb(50, 231, 231);
   padding: 5px;
   border: rgb(231, 235, 8) 5px solid;
@@ -30,10 +32,15 @@ img {
 
 .info {
   color: rgb(10, 165, 226);
-  margin-top: -10px;
+  font-size: larger;
+  margin-bottom: 2px;
 }
 
-.colorCode {
-  margin-top: -15px;
+.colorDiv {
+  margin-top: -20px;
   margin-bottom: -10px;
+}
+.description {
+  text-align: justify;
+  margin: 15px 15px;
 }
